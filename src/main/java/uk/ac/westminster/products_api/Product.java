@@ -15,6 +15,7 @@ public class Product {
         this.price = price;
 
     }
+// if there are no get methode for a field, it is never called hence the field is skipped
 
     public Long getId() { return id;}
 
